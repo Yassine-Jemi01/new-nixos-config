@@ -14,6 +14,7 @@
     ../../modules/programs.nix
     ../../modules/fonts.nix
     ../../modules/shell.nix
+    ../../modules/nh.nix
   ];
   
   yssn.shell.enable = true;
