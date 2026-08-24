@@ -13,6 +13,7 @@
     ../../modules/shell.nix
     ../../modules/nh.nix
     ../../profiles/desktop.nix
+    ../../profiles/gaming.nix
   ];
   
   yssn.shell.enable = true;
