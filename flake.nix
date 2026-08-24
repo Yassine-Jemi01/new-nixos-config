@@ -24,7 +24,7 @@
       };
 
       modules = [
-        ./configuration.nix
+        ./hosts/yssn
 
         home-manager.nixosModules.home-manager
 
