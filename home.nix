@@ -12,9 +12,11 @@
     settings.user = {
       name = "Yassine-Jemi01";
       email = "yassine.jemi01@gmail.com";
+      credential.helper = "gh";
     };
   };
-
+  
+  programs.ssh.enable = true;
   programs.fish = {
     enable = true;
 

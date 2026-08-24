@@ -111,6 +111,7 @@
      ripgrep
      fd
      tree
+     gh
   ];
 
   fonts.packages = with pkgs; [
