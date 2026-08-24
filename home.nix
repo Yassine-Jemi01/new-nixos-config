@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   home.username = "yssn";
@@ -11,12 +11,16 @@
 
     settings.user = {
       name = "Yassine-Jemi01";
-      email = "yassine.jemi01@gmail.com";
+      email = "YOUR_GITHUB_NOREPLY_EMAIL";
       credential.helper = "gh";
     };
   };
-  
-  programs.ssh.enable = true;
+
+  programs.ssh = {
+    enable = true;
+    enableDefaultConfig = false;
+  };
+
   programs.fish = {
     enable = true;
 
