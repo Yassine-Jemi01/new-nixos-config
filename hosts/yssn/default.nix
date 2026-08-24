@@ -8,13 +8,11 @@
     ../../modules/networking.nix
     ../../modules/locale.nix
     ../../modules/nix.nix
-    ../../modules/desktop.nix
-    ../../modules/audio.nix
     ../../modules/users.nix
     ../../modules/programs.nix
-    ../../modules/fonts.nix
     ../../modules/shell.nix
     ../../modules/nh.nix
+    ../../profiles/desktop.nix
   ];
   
   yssn.shell.enable = true;
