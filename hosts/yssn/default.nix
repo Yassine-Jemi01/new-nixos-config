@@ -13,7 +13,10 @@
     ../../modules/users.nix
     ../../modules/programs.nix
     ../../modules/fonts.nix
+    ../../modules/shell.nix
   ];
+  
+  yssn.shell.enable = true;
 
   system.stateVersion = "26.05";
 }

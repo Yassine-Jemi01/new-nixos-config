@@ -98,6 +98,12 @@
   programs.firefox.enable = false;
 
   nixpkgs.config.allowUnfree = true;
+  
+  #Enable appimage
+  programs.appimage = {
+    enable = true;
+    binfmt = true;
+  };  
 
   environment.systemPackages = with pkgs; [
      brave
