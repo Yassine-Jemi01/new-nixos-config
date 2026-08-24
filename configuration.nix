@@ -1,10 +1,16 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs,  ... }:
 
 {
   imports =
     [
       ./hardware-configuration.nix
+      inputs.silentSDDM.nixosModules.default
     ];
+
+  programs.silentSDDM = {
+  enable = true;
+  theme = "catppuccin-mocha";
+  };
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
