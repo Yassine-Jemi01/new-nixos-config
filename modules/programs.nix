@@ -32,5 +32,6 @@
     gh
     python3
     python3Packages.pip
+    ibm-plex
   ];
 }
